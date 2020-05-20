@@ -25,13 +25,13 @@ class MyApp extends StatelessWidget {
                   fontSize: 18)),
           appBarTheme: AppBarTheme(
               textTheme: ThemeData.light().textTheme.copyWith(
-                    title: TextStyle(
-                      fontFamily: 'Open Sans',
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                    button: TextStyle(color: Colors.white),
-                  ))),
+                title: TextStyle(
+                  fontFamily: 'Open Sans',
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+                button: TextStyle(color: Colors.white),
+              ))),
       home: MyHomePage(),
     );
   }
